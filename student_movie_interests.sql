@@ -17,9 +17,6 @@ INSERT INTO student_movie_interests (student_id, genre_id) VALUES (8, 2), (8, 5)
 INSERT INTO student_movie_interests (student_id, genre_id) VALUES (9, 4), (9, 6);
 INSERT INTO student_movie_interests (student_id, genre_id) VALUES (10, 1), (10, 5);
 
-
 select * from student_movie_interests order by student_id;
-delete from student_movie_interests where student_id between 11 and 15;
-
 
 
